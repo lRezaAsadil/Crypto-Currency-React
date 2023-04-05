@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-image: url("./asstes/25694855_sl_0210121_40570_43.jpg");
+  backdrop-filter: b(0.8px);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  color:aliceblue;
 }
 
 .App-logo {
@@ -32,6 +39,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
